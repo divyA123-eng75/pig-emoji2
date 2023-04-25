@@ -1,0 +1,78 @@
+.head{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: pink;
+    position: relative;
+    border: 5px solid black;
+    top:20px;
+}
+
+.eye{
+    width : 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color : white;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 15px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eye:first-child{
+    left:20px;
+}
+.eye:nth-child(2){
+    right:30px;
+}
+
+.pupil{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    align-items: center;
+}
+
+.nose{
+    width: 90px;
+    height: 50px;
+    border-radius: 22px 22px 22px 22px;
+    background-color: palevioletred;
+    position: absolute;
+    top: 110px;
+    left: 53px;
+    border: 3px solid black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nostril{
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.ear{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: pink;
+    position:absolute;
+    margin-top: -5px;
+    margin-left: -3px;
+    border: 3px solid black;
+    z-index: -1;
+}
+.ear:first-child{
+    left: 0px;
+}
+
+.ear:nth-child(2){
+    right: -155px;
+}
+
